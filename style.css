@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "devroye";
+	src: url("devroye.ttf");
+}
+
+div.screen > div.wrapper {
+	display:table;
+	height:100%;
+	width:100%;
+}
+
+div.wrapper > div.body {
+	display:table-cell;
+	vertical-align:middle;
+	height:100%;
+	width:100%;
+}
+
+#logo {
+    text-shadow: 1px 1px 5px gray;
+    font-family: devroye;
+    font-size: 30pt;
+    color: #000;
+    /* text-shadow: 0 0 4px rgba(0,0,0,0.3) !important; */
+    /* filter: blur(0.2px); */
+}
+
+#logo span {
+    color: #ba0000;
+}
+
+#msg {
+    font-family: devroye;
+    font-size: 10pt;
+    font-style: oblique; 
+}
